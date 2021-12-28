@@ -1,0 +1,45 @@
+.flexmain {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.flexmain div {
+	width:300px;
+}
+
+.flexmain div:nth-child(1) {
+	color: blue;
+	order:6;
+	flex-grow: 3;
+}
+
+.flexmain div:nth-child(2) {
+	color: green;
+	order:6;
+}
+
+.flexmain div:nth-child(3) {
+	color: red;
+	order:6;
+}
+.flexmain div:nth-child(4) {
+	color: orange;
+	order:6;
+}
+.flexmain div:nth-child(5) {
+	color: brown;
+	order:6;
+}
+.flexmain div:nth-child(6) {
+	color: yellow;
+	order:6;
+	flex-grow:4;
+}
+
+.contentfits {
+  display: grid;
+  grid-template-columns: fit-content(200px) fit-content(200px) auto;
+}

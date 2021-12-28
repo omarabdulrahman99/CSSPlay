@@ -1,0 +1,7 @@
+.App {
+  min-height: 100vh;
+  background: pink;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
